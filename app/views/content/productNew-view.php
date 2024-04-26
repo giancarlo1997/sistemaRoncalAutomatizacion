@@ -90,15 +90,11 @@
 		<div class="columns">
 			<div class="column">
 				<label>Foto o imagen del producto</label><br>
-				<div class="file is-small has-name">
-				  	<label class="file-label">
-				    	<input class="file-input" type="file" name="producto_foto" accept=".jpg, .png, .jpeg" >
-				    	<span class="file-cta">
-				      		<span class="file-label">Imagen</span>
-				    	</span>
-				    	<span class="file-name">JPG, JPEG, PNG. (MAX 5MB)</span>
-				  	</label>
-				</div>
+				
+				  
+				    	<input type="file" name="producto_foto" >
+				    	
+				
 			</div>
 		</div>
 		<p class="has-text-centered">

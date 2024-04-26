@@ -12,13 +12,13 @@
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
-					<label>Nombre <?php echo CAMPO_OBLIGATORIO; ?></label>
+					<label>Categoria <?php echo CAMPO_OBLIGATORIO; ?></label>
 				  	<input class="input" type="text" name="categoria_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required >
 				</div>
 		  	</div>
 		  	<div class="column">
 		    	<div class="control">
-					<label>Ubicación</label>
+					<label>Nombre</label>
 				  	<input class="input" type="text" name="categoria_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" >
 				</div>
 		  	</div>
